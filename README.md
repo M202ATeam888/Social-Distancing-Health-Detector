@@ -14,9 +14,11 @@ The main idea of this project is to design a device based on Arduino Nano 33 BLE
 # 3. Goals:
 - Measuring the distance
 - Measuring the body temperature of the person in front
+- Measuring the humidity of the environment
 - Measuring the user’s health conditions 
 
 Other possible features when there are a group of users at a quarantine site:
+- Cellphone APP that can receive warning directly from the device
 - GPS module to locate the users 
 - Module to detect if the users takes the device off for a long time
 - Alarms the medical personnel if the users are too close to others for a long time
