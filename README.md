@@ -18,7 +18,7 @@ The main idea of this project is to design a device based on Arduino Nano 33 BLE
 - Measuring the user’s health conditions(body temperature, heart rate, etc) 
 
 Other possible features when there are a group of users at a quarantine site:
-- Cellphone APP that can remind the user when it receives data from the device
+- Cellphone APP that can warn the user based on the data from the detector
 - GPS module to locate the users 
 - Module to detect if the users takes the device off for a long time
 - Alarms the medical personnel if the users are too close to others for a long time
