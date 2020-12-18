@@ -32,7 +32,9 @@ Other possible features when there are a group of users at a quarantine site:
 - Ultrasonic Sensor 
 - App Design
 
-# 5. Soical Distancing Detecting
+# 5. Functions:
+#### Distance Detecting
+
 
 
 # 6. Timeline:
@@ -46,15 +48,15 @@ Other possible features when there are a group of users at a quarantine site:
 
 # 7. Strengths, Weakness and Future Work:
 ### Strength: 
-Usefulness: this device is very practical in light of the pandemic and people disregarding social distancing policy
-Size: the size of our device is relatively small and thus make it easy to carry around
-Accuracy: the readings were very accurate according to our experimental data
-Potential: other meaningful features can be safely and easily added to our device and APP
+**Usefulness:** this device is very practical in light of the pandemic and people disregarding social distancing policy
+**Size:** the size of our device is relatively small and thus make it easy to carry around
+**Accuracy:** the readings were very accurate according to our experimental data
+**Potential:** other meaningful features can be safely and easily added to our device and APP
 
 ### Weakness:
-Package: We did not package our device to make it a true wearable device to use
-Distance: The measuring distance of the IR sensor is limited
-APP: The app is only at the early stage since we are still working on it
+**Package:** We did not package our device to make it a true wearable device to use
+**Distance:** The measuring distance of the IR sensor is limited
+**APP:** The app is only at the early stage since we are still working on it
 
 ### Future Work: 
 We will include more features of our device. Firstly, we might assign each device an identification number and distribute this device to many people in the city. When two devices are close enough, they will both record each other's ID and send this to the cloud, which is closely monitored by assigned medical personnel. The cloud will store this information of close contacts. If someone is unfortunately designated as positive of COVID19, the cloud can quickly do the contact tracing by sending an alert to each person's cellphone via the APP we have designed. Secondly, we will include another features for measuring the user's own health conditions like heart rate and temperature. If these readings are showing symptoms of COVID19, the device will send an alert to the user's APP and report this suspicious case to the cloud.
