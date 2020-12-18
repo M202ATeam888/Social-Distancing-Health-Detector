@@ -48,13 +48,13 @@ Other possible features when there are a group of users at a quarantine site:
 
 # 7. Strengths, Weakness and Future Work:
 ### Strength: 
-**Usefulness:** this device is very practical in light of the pandemic and people disregarding social distancing policy.
+- **Usefulness:** this device is very practical in light of the pandemic and people disregarding social distancing policy.
 - **Size:** the size of our device is relatively small and thus make it easy to carry around.
 - **Accuracy:** the readings were very accurate according to our experimental data.
 - **Potential:** other meaningful features can be safely and easily added to our device and APP.
 
 ### Weakness:
-**Package:** We did not package our device to make it a true wearable device to use.
+- **Package:** We did not package our device to make it a true wearable device to use.
 - **Distance:** The measuring distance of the IR sensor is limited.
 - **APP:** The app is only at the early stage since we are still working on it.
 
