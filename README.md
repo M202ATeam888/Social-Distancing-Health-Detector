@@ -1,6 +1,5 @@
 # Social Distancing & Health Detector
-Social Distancing & Health Detector 
-
+Fall 2020
 ECE M202A Project:
 
 Team Members: Xuanan Yue(UID: 405629055), Chuang Yu(UID: 305629107)
