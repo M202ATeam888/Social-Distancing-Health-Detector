@@ -33,7 +33,11 @@ Other possible features when there are a group of users at a quarantine site:
 
 ## 5. Functions:
 #### Distance Measuring
-The HC-SR04 Ultrasonic distance sensor connected to the Arduino Nano 33 BLE Sensor board can measure the distance between the device user and the person being measured. In our design, we set the maximum distance to 6ft, which is the social distancing. If the distance between the measured person and the user is less than 6ft, the buzzer will be triggered with long beep warning. Additionally, we also applied the infrared thermometer sensor to the distance meauring function. The infraraed thermometer sensor will only measure the objects with a temperature greater than 36°C. In this case, we can guarantee that the device will only measure the human body temperature instead of the temperature of other objects. 
+The HC-SR04 Ultrasonic distance sensor connected to the Arduino Nano 33 BLE Sensor board can measure the distance between the device user and the person being measured. ![hr04](https://user-images.githubusercontent.com/72429957/102719415-daec8180-42a2-11eb-8fc9-74e256ade0a1.jpg)
+In our design, we set the maximum distance to 6ft, which is the social distancing. If the distance between the measured person and the user is less than 6ft, the buzzer will be triggered with long beep warning. Additionally, we also applied the infrared thermometer sensor to the distance meauring function. The infraraed thermometer sensor will only measure the objects with a temperature greater than 36°C. In this case, we can guarantee that the device will only measure the human body temperature instead of the temperature of other objects. 
+
+#### Body Temperature Measuring
+GY-MLX90614-DCI Long Distance Infrared Thermometer is used to measure the body temperature. 
 
 
 ## 6. Timeline:
