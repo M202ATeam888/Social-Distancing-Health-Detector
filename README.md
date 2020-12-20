@@ -32,8 +32,8 @@ Other possible features when there are a group of users at a quarantine site:
 - App Design
 
 ## 5. Functions:
-#### Distance Detecting
-
+#### Distance Measuring
+Connected the HC-SR04 Ultrasonic distance sensor to the Arduino Nano 33 BLE Sensor board. 
 
 
 ## 6. Timeline:
