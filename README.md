@@ -30,12 +30,10 @@ Other possible features when there are a group of users at a quarantine site:
 - IR Sensor
 - Ultrasonic Sensor 
 - App Design
+![whole](https://user-images.githubusercontent.com/72429957/102720457-53eed780-42a9-11eb-9bf3-b82ea8fe5888.jpg)
 
 ## 5. Functions:
 - #### Project Diagram <img width="879" alt="diagram" src="https://user-images.githubusercontent.com/72429957/102720080-df1a9e00-42a6-11eb-8153-60af2243be5f.png">
-
-
-
 
 
 - #### Distance Measuring [Demo Video](https://youtu.be/UINRYKL2Wlk)
@@ -55,21 +53,12 @@ float Adafruit_MLX90614::readTemp(uint8_t reg) {
   return temp;
 }
 ```
-Based on the datasheet, the sensor result has measurement resolution of 0.02°C and is aviailable in RAM, and is derived from RAM as: To(°K) = Toreg * 0.02. The result is calcaulated by following expressions: 1. Convert it to decimal value i.e. 0x3AF7 = 15095d. 2. Divide by 50 (or multiply by 0.02) i.e. 15095 / 50 = 301.9K (result is in Kelvin). 3. Convert K to °C i.e. 301.9 - 273.15 = 28.75°C.
+Based on the datasheet, the sensor result has measurement resolution of 0.02°C and is aviailable in RAM, and is derived from RAM as: To(°K) = Toreg * 0.02. The result is calcaulated by following expressions: 1. Convert it to decimal value i.e. 0x3AF7 = 15095d. 2. Divide by 50 (or multiply by 0.02) i.e. 15095 / 50 = 301.9K (result is in Kelvin). 3. Convert K to °C i.e. 301.9 - 273.15 = 28.75°C. During testing, we found that the max safe body temperature cannot be set to 37.5°C due to environment temperature. After several testing cases, we set the temperature to 34.5°C. If the body temperature of the person being tested is greater than this value, the buzzer will be triggered and rush beep. At the same time, the red LED will be switched on to warn the user that person's body temperature is above the safe value and may be dangerous.  
+In the demo video, becasue we live in different states and currently serious situation of COVID-19, we cannnot meet each other during week9-10. So we decided to use a candle to demo instead of human body temperature. 
 
 
 
-
-## 6. Timeline:
-- Week4: Project introduction and research. Order components
-- Week5: Sensors value collection and circuits setup
-- Week6: Mock test on PC
-- Week7: Cell Phone App design
-- Week 8-9: Bluetooth wireless communication and device tests
-- Week10: Final test and demo
-
-
-## 7. Strengths, Weakness and Future Work:
+## 6. Strengths, Weakness and Future Work:
 #### Strength: 
 - **Usefulness:** this device is very practical in light of the pandemic and people disregarding social distancing policy.
 - **Size:** the size of our device is relatively small and thus make it easy to carry around.
@@ -84,6 +73,11 @@ Based on the datasheet, the sensor result has measurement resolution of 0.02°C 
 #### Future Work: 
 We will include more features of our device. Firstly, we might assign each device an identification number and distribute this device to many people in the city. When two devices are close enough, they will both record each other's ID and send this to the cloud, which is closely monitored by assigned medical personnel. The cloud will store this information of close contacts. If someone is unfortunately designated as positive of COVID19, the cloud can quickly do the contact tracing by sending an alert to each person's cellphone via the APP we have designed. Secondly, we will include another features for measuring the user's own health conditions like heart rate and temperature. If these readings are showing symptoms of COVID19, the device will send an alert to the user's APP and report this suspicious case to the cloud.
 
+
+## 7. Contribution:
+Xuanan Yue: Xuanan is responsible for the distance measuring and testing part. Physical connection of the board. App design. Humandity sensor testing. 
+
+Chuang Yu: Chuang is responsible for comparing and selecting components we need in this project. Writing code for the IR sensor and testing. App design. 
 
 
 ## 8. Summary
