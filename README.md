@@ -3,7 +3,7 @@ Fall 2020
 ECE M202A Project:
 
 Team Members: Xuanan Yue(UID: 405629055), Chuang Yu(UID: 305629107)
-Link: 
+- Link: [Slides](https://docs.google.com/presentation/d/1oyW5t3d7xD6XtengHq419j9GMS43Ftb_KBLRSlSc_bE/edit?usp=sharing)[Video](https://youtu.be/g36RINbeDx8)
 ## 1. Motivation:
 Due to COVID-19 pandemic, most cities in the United States have made policies about social distancing(staying at least 6 feet away from others when possible). However, these policies are not strictly followed when people are not paying enough attention. For example, people tend not to remain at a safe distance with others when they are working on their cellphones, listening to music or concentrating on other things. Therefore, in order to practice this policy appropriately, our team came up with an idea of designing a device based on Arduino Nano 33 BLE Sense called Social Distancing & Health Detector. This detector has two basic features: Detecting the distance between the user and the person in front and measuring the temperature of that person. Another function of our device is that it can measure the humidity of the environment since high humidity can negatively affect the effectiveness of the masks. Furthermore, our device can connect to an APP on the user's smartphone to warn the user of close contact and transmit other useful information via Bluetooth. 
 
