@@ -82,6 +82,10 @@ Chuang Yu: Chuang is responsible for comparing and selecting components we need 
 ## 8. Summary
 In summary, we have successfully built a device composed of IR sensor, ultrasonic sensor and humidity sensor that could detect the distance between the user and the person in front, measure the temperature of that person, and measure the humidity of the environment. We have run multiple experiments and the results showed that the readings were stable and reliable in different settings. However, we are still working on the APP design right now for receiving multiple sets of data from our device. 
 
+### 9. Reference
+- https://www.digchip.com/datasheets/parts/datasheet/287/MLX90614ESF-DCI-000-SP-pdf.php
+- https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+- https://www.arduino.cc/en/Guide/NANO33BLESense
 
 
 
