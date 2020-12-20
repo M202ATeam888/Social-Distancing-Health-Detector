@@ -57,7 +57,6 @@ Based on the datasheet, the sensor result has measurement resolution of 0.02°C 
 In the demo video, becasue we live in different states and currently serious situation of COVID-19, we cannnot meet each other during week9-10. So we decided to use a candle to demo instead of human body temperature. 
 
 
-
 ## 6. Strengths, Weakness and Future Work:
 #### Strength: 
 - **Usefulness:** this device is very practical in light of the pandemic and people disregarding social distancing policy.
