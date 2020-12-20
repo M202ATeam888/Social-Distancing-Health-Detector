@@ -32,7 +32,8 @@ Other possible features when there are a group of users at a quarantine site:
 - App Design
 
 ## 5. Functions:
-- #### Project Diagram
+- #### Project Diagram <img width="879" alt="diagram" src="https://user-images.githubusercontent.com/72429957/102720080-df1a9e00-42a6-11eb-8153-60af2243be5f.png">
+
 
 
 
@@ -44,6 +45,19 @@ In our design, we set the maximum distance to 6ft, which is the social distancin
 
 - #### Body Temperature Measuring [Demo Video](https://youtu.be/dmpkhwPQ704)
 GY-MLX90614-DCI Long Distance Infrared Thermometer is used to measure the body temperature. ![thermal sensor](https://user-images.githubusercontent.com/72429957/102719703-5b5fb200-42a4-11eb-850a-c8e5e514f7a2.jpg)
+```
+float Adafruit_MLX90614::readTemp(uint8_t reg) {
+  float temp;
+  
+  temp = read16(reg);
+  temp *= .02;
+  temp  -= 273.15;
+  return temp;
+}
+```
+Based on the datasheet, the sensor result has measurement resolution of 0.02°C and is aviailable in RAM, and is derived from RAM as: To(°K) = Toreg * 0.02. The result is calcaulated by following expressions: 1. Convert it to decimal value i.e. 0x3AF7 = 15095d. 2. Divide by 50 (or multiply by 0.02) i.e. 15095 / 50 = 301.9K (result is in Kelvin). 3. Convert K to °C i.e. 301.9 - 273.15 = 28.75°C.
+
+
 
 
 ## 6. Timeline:
@@ -64,7 +78,7 @@ GY-MLX90614-DCI Long Distance Infrared Thermometer is used to measure the body t
 
 #### Weakness:
 - **Package:** We did not package our device to make it a true wearable device to use.
-- **Distance:** The measuring distance of the IR sensor is limited.
+- **Distance:** The measuring distance of the IR sensor is limited. 
 - **APP:** The app is only at the early stage since we are still working on it.
 
 #### Future Work: 
